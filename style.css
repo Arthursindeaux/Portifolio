@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #030014;
+  color: white;
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  gap: 3rem;
+  margin-top: -100px; 
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.status-badge {
+  display: inline-block;
+  background: rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 8px 16px;
+  border-radius: 999px;
+  position: relative;
+  overflow: hidden;
+}
+.status-badge::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  opacity: 0.3;
+  filter: blur(8px);
+  z-index: -1;
+}
+.status-badge span {
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.status-badge i {
+  margin-right: 6px;
+  color: #4f52c9;
+}
+
+/* TITLES */
+.title {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.gradient-text {
+  background: linear-gradient(90deg, white, #a5b4fc);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.gradient-purple {
+  background: linear-gradient(90deg, #6366f1, #8A2BE2 );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.description {
+  color: #9ca3af;
+  line-height: 1.5;
+  max-width: 480px;
+}
+
+/* TECH STACK */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.tech-stack span {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #d1d5db;
+  transition: background 0.3s;
+}
+.tech-stack span:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(3, 0, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3%; /* 🔹 deixou mais à esquerda e mais largo no fim */
+  z-index: 1000;
+  transition: background 0.3s;
+  box-sizing: border-box;
+  overflow-x: auto;  /* 🔹 evita que o último item desapareça */
+  scrollbar-width: none; /* 🔹 esconde a barra no Firefox */
+}
+.header::-webkit-scrollbar { display: none; } /* 🔹 esconde no Chrome/Safari */
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+  flex-shrink: 0; /* 🔹 impede que o logo seja comprimido */
+}
+.logo span {
+  background: linear-gradient(90deg, #a855f7, #6366f1);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap; /* 🔹 mantém na mesma linha */
+  white-space: nowrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #d1d5db;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #fff;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  transition: width 0.3s;
+  border-radius: 2px;
+}
+
+.nav a:hover::after,
+.nav a.active::after {
+  width: 100%;
+}
+
+/* Espaçamento extra no topo do conteúdo principal */
+main {
+  padding-top: 100px;
+}
+
+/* 🔹 RESPONSIVO: reduz gap e centraliza */
+@media (max-width: 900px) {
+  .nav ul {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 5%;
+    overflow-x: visible;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
