@@ -1,7 +1,13 @@
+:root {
+  --primary: #6366f1;
+  --secundary: #a855f7;
+  --background: #030014;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #030014;
+  background-color: var(--background);
   color: white;
   overflow-x: hidden;
 }
@@ -39,13 +45,13 @@ body {
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: linear-gradient(90deg, #6366f1, #a855f7);
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
   opacity: 0.3;
   filter: blur(8px);
   z-index: -1;
 }
 .status-badge span {
-  background: linear-gradient(90deg, #6366f1, #a855f7);
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
   -webkit-background-clip: text;
   color: transparent;
   font-size: 0.9rem;
@@ -63,12 +69,11 @@ body {
   margin: 1rem 0;
 }
 .gradient-text {
-  background: linear-gradient(90deg, white, #a5b4fc);
-  -webkit-background-clip: text;
+ background: linear-gradient(90deg, #6366f1, #8A2BE2 );  -webkit-background-clip: text;
   color: transparent;
 }
 .gradient-purple {
-  background: linear-gradient(90deg, #6366f1, #8A2BE2 );
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -123,13 +128,13 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 1px;
-  background: linear-gradient(90deg, #6366f1, #a855f7);
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
   -webkit-background-clip: text;
   color: transparent;
   flex-shrink: 0; /* 🔹 impede que o logo seja comprimido */
 }
 .logo span {
-  background: linear-gradient(90deg, #a855f7, #6366f1);
+  background: linear-gradient(90deg, var(--secundary), var(--primary));
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -164,7 +169,7 @@ body {
   left: 0;
   width: 0%;
   height: 2px;
-  background: linear-gradient(90deg, #6366f1, #a855f7);
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
   transition: width 0.3s;
   border-radius: 2px;
 }
@@ -199,6 +204,144 @@ main {
     align-items: flex-start;
     gap: 1rem;
     margin-top: 0.5rem;
+  }
+}
+
+/* === SEÇÃO SOBRE MIM === */
+.about-section {
+  min-height: 100vh;
+  background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 10%;
+  color: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1 1 500px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.highlight {
+  color: #a1a1aa;
+  font-weight: 400;
+}
+
+.name-gradient {
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bio {
+  color: #cfcfcf;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 550px;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* === BOXES DE ESTATÍSTICA === */
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  flex: 1 1 120px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.stat-box h4 {
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+}
+
+.stat-box p {
+  color: #aaa;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* === FOTO === */
+.about-photo {
+  flex: 1 1 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-frame {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--primary), var(--secundary));
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* === RESPONSIVO === */
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-photo {
+    margin-bottom: 2rem;
+  }
+
+  .stats {
+    justify-content: center;
   }
 }
 
