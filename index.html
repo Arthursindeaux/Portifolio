@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arthur Sindeaux</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/a2e0a1e1b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,9 +22,9 @@
     </nav>
   </header>
 
+  <!-- 🔹 HOME -->
   <main id="Home">
     <section class="container">
-      <!-- LEFT -->
       <div class="left">
         <div class="status-badge">
           <span><i class="fa-solid fa-star"></i> Pronto para aprender</span>
@@ -45,31 +45,113 @@
           <span>HTML</span>
           <span>CSS</span>
         </div>
-
       </div>
     </section>
 
+    <!-- 🔹 SOBRE MIM -->
     <section id="Sobre" class="about-section">
-    <div class="about-container">
-      <div class="about-text">
-        <h2 class="section-title">Sobre Mim <i class="fa-solid fa-user"></i></h2>
-        <h3 class="intro">
-          <span class="highlight">Olá!</span><br>
-        </h3>
-        <p class="bio">
-          Sou um estudante de ciência da computação, atualmente no 2 período da Cesar School  
-          Tenho interesse em me aprofundar em <strong>Ciência de Dados</strong> e <strong>Desenvolvimento de Software</strong>,  
-          buscando sempre aprofundar meus conhecimentos e aplicar eles em novos projetos com
-          inovação, criatividade e boas práticas.
-        </p>
+      <div class="about-container">
+        <div class="about-text">
+          <h2 class="section-title">Sobre Mim <i class="fa-solid fa-user"></i></h2>
+          <h3 class="intro">
+            <span class="highlight">Olá!</span><br>
+          </h3>
+          <p class="bio">
+            Sou um estudante de ciência da computação, atualmente no 2º período da Cesar School.  
+            Tenho interesse em me aprofundar em <strong>Ciência de Dados</strong> e <strong>Desenvolvimento de Software</strong>,  
+            buscando sempre aplicar meus conhecimentos em novos projetos com inovação, criatividade e boas práticas.
+          </p>
+        </div>
+        <div class="about-photo">
+          <div class="photo-frame">
+            <img src="file:///C:/Users/arthu/Downloads/WhatsApp%20Image%202025-10-23%20at%2009.05.48.jpeg" alt="Foto de Arthur" />
+          </div>
+        </div>
       </div>
-      <div class="about-photo">
-        <div class="photo-frame">
-          <img src="file:///C:/Users/arthu/Downloads/WhatsApp%20Image%202025-10-23%20at%2009.05.48.jpeg" alt="Foto de Arthur" />
+    </section>
+
+    <section class="portfolio-section">
+    <div class="header-Portifolio">
+      <h2 class="gradient-text-portifolio">Meu Portifolio</h2>
+    </div>
+
+    <!-- 🔹 Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="projects"><i class="fa-solid fa-code"></i> Projetos</button>
+      <button class="tab" data-tab="certificates"><i class="fa-solid fa-award"></i> Certificações</button>
+      <button class="tab" data-tab="techstack"><i class="fa-solid fa-cubes"></i> Tech Stack</button>
+    </div>
+
+    <!-- 🔹 Conteúdo -->
+    <div class="tab-content-container">
+
+      <!-- 🧩 Projetos -->
+      <div id="projects" class="tab-content active">
+        <div class="grid">
+          <div class="card">
+            <img src="c:\Users\arthu\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-10-13 085505.png" alt="FitSchool">
+            <h3>FitSchool Platform</h3>
+            <p>Plataforma desenvolvida para ajudar sua organização a gerenciar e acompanhar seus exercícios físicos de forma prática e eficiente.
+Confira mais detalhes no nosso GitHub!</p>
+            <div class="buttons">
+              <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="static/img/kivo.png" alt="KIVO">
+            <h3>KIVO UX Redesign</h3>
+            <p>Design Sprint para o portal Jornal do Commercio, focado em UX e engajamento.</p>
+            <a href="https://www.figma.com" target="_blank" class="btn">Ver Figma</a>
+          </div>
+
+          <div class="card">
+            <img src="static/img/azza3.png" alt="AZZA3">
+            <h3>AZZA3 Dashboard</h3>
+            <p>Análise de dados financeiros usando Python, Pandas e Yahoo Finance.</p>
+            <a href="https://github.com/Arthursindeaux/AZZA3" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🏅 Certificações -->
+      <div id="certificates" class="tab-content">
+        <div class="grid">
+          <div class="card">
+            <img src="static/img/googlecloud.png" alt="Google Cloud">
+            <h3>Google Cloud Foundations</h3>
+            <p>Curso de fundamentos em Cloud Computing e DevOps.</p>
+            <a href="#" class="btn">Ver Certificado</a>
+          </div>
+
+          <div class="card">
+            <img src="static/img/githubpack.png" alt="GitHub Pack">
+            <h3>GitHub Student Developer Pack</h3>
+            <p>Acesso às melhores ferramentas de desenvolvimento para estudantes.</p>
+            <a href="#" class="btn">Detalhes</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ⚙️ Tech Stack -->
+      <div id="techstack" class="tab-content">
+        <div class="tech-grid">
+          <div class="tech-card"><img src="static/icons/python.svg" alt="Python"><span>Python / Django</span></div>
+          <div class="tech-card"><img src="static/icons/react.svg" alt="React"><span>React / JS</span></div>
+          <div class="tech-card"><img src="static/icons/azure.svg" alt="Azure"><span>Azure Cloud</span></div>
+          <div class="tech-card"><img src="static/icons/git.svg" alt="Git"><span>Git & CI/CD</span></div>
+          <div class="tech-card"><img src="static/icons/figma.svg" alt="Figma"><span>Figma / UX Design</span></div>
+          <div class="tech-card"><img src="static/icons/tailwind.svg" alt="Tailwind"><span>Tailwind CSS</span></div>
         </div>
       </div>
     </div>
   </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
