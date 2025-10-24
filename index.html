@@ -76,26 +76,32 @@
     </div>
 
     <!-- 🔹 Tabs -->
-    <div class="tabs">
-      <button class="tab active" data-tab="projects"><i class="fa-solid fa-code"></i> Projetos</button>
-      <button class="tab" data-tab="certificates"><i class="fa-solid fa-award"></i> Certificações</button>
-      <button class="tab" data-tab="techstack"><i class="fa-solid fa-cubes"></i> Tech Stack</button>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="projects" role="tab" aria-controls="projects" aria-selected="true">
+        <i class="fa-solid fa-code"></i> Projetos
+      </button>
+      <button class="tab" data-tab="certificates" role="tab" aria-controls="certificates" aria-selected="false">
+        <i class="fa-solid fa-award"></i> Certificações
+      </button>
+      <button class="tab" data-tab="techstack" role="tab" aria-controls="techstack" aria-selected="false">
+        <i class="fa-solid fa-cubes"></i> Tech Stack
+      </button>
     </div>
 
     <!-- 🔹 Conteúdo -->
     <div class="tab-content-container">
 
       <!-- 🧩 Projetos -->
-      <div id="projects" class="tab-content active">
+      <div id="projects" class="tab-content active" role="tabpanel">
         <div class="grid">
           <div class="card">
             <img src="c:\Users\arthu\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-10-13 085505.png" alt="FitSchool">
             <h3>FitSchool</h3>
             <p>Plataforma desenvolvida para ajudar sua organização a gerenciar e acompanhar seus exercícios físicos de forma prática e eficiente.
-Confira mais detalhes no nosso GitHub!</p>
+            Confira mais detalhes no nosso GitHub!</p>
             <div class="buttons">
               <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
-              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-github"></i>Veja no GitHub
               </a>
             </div>
           </div>
@@ -106,7 +112,7 @@ Confira mais detalhes no nosso GitHub!</p>
             <p>Um projeto que busca aumentar a fidelidade dos leitores do Jornal do commercio. Confira mais detalhes no nosso GitHub!</p>
             <div class="buttons">
               <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
-              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-github"></i>Veja no Github
               </a>
             </div>
           </div>
@@ -117,20 +123,20 @@ Confira mais detalhes no nosso GitHub!</p>
             <p>Um controle que consegue captar os movimentos da cabeça do usuário. Confira mais detalhes no nosso GitHub!</p>
             <div class="buttons">
               <a href="https://github.com/Marcelomenezes07/projeto-ctrl4all" target="_blank">
-              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-github"></i>Veja no GitHub
               </a>
             </div>
           </div>
 
       <!-- 🏅 Certificações -->
-      <div id="certificates" class="tab-content">
-        <div class="grid">
-          <div class="card">
-            <img src="static/img/googlecloud.png" alt="Google Cloud">
-            <h3>Google Cloud Foundations</h3>
-            <p>Curso de fundamentos em Cloud Computing e DevOps.</p>
-            <a href="#" class="btn">Ver Certificado</a>
-          </div>
+    <div id="certificates" class="tab-content" role="tabpanel">
+      <div class="grid">
+        <div class="card">
+          <img src="static/img/googlecloud.png" alt="Google Cloud">
+          <h3>Google Cloud Foundations</h3>
+          <p>Curso de fundamentos em Cloud Computing e DevOps.</p>
+          <a href="#" class="btn">Ver Certificado</a>
+        </div>
 
           <div class="card">
             <img src="static/img/githubpack.png" alt="GitHub Pack">
@@ -142,7 +148,7 @@ Confira mais detalhes no nosso GitHub!</p>
       </div>
 
       <!-- ⚙️ Tech Stack -->
-      <div id="techstack" class="tab-content">
+      <div id="techstack" class="tab-content" role="tabpanel">
         <div class="tech-grid">
           <div class="tech-card"><img src="static/icons/python.svg" alt="Python"><span>Python / Django</span></div>
           <div class="tech-card"><img src="static/icons/react.svg" alt="React"><span>React / JS</span></div>
