@@ -71,99 +71,105 @@
     </section>
 
     <section class="portfolio-section">
-    <div class="header-Portifolio">
-      <h2 class="gradient-text-portifolio">Meu Portifolio</h2>
-    </div>
+  <div class="header-Portifolio">
+    <h2 class="gradient-text-portifolio">Meu Portifolio</h2>
+  </div>
 
-    <!-- 🔹 Tabs -->
-    <div class="tabs" role="tablist">
-      <button class="tab active" data-tab="projects" role="tab" aria-controls="projects" aria-selected="true">
-        <i class="fa-solid fa-code"></i> Projetos
-      </button>
-      <button class="tab" data-tab="certificates" role="tab" aria-controls="certificates" aria-selected="false">
-        <i class="fa-solid fa-award"></i> Certificações
-      </button>
-      <button class="tab" data-tab="techstack" role="tab" aria-controls="techstack" aria-selected="false">
-        <i class="fa-solid fa-cubes"></i> Tech Stack
-      </button>
-    </div>
+  <!-- 🔹 Tabs -->
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="projects">
+      <i class="fa-solid fa-code"></i> Projetos
+    </button>
+    <button class="tab" data-tab="certificates">
+      <i class="fa-solid fa-award"></i> Certificações
+    </button>
+    <button class="tab" data-tab="techstack">
+      <i class="fa-solid fa-cubes"></i> Tech Stack
+    </button>
+  </div>
 
-    <!-- 🔹 Conteúdo -->
-    <div class="tab-content-container">
+  <!-- 🔹 Conteúdo -->
+  <div class="tab-content-container">
 
-      <!-- 🧩 Projetos -->
-      <div id="projects" class="tab-content active" role="tabpanel">
-        <div class="grid">
-          <div class="card">
-            <img src="c:\Users\arthu\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-10-13 085505.png" alt="FitSchool">
-            <h3>FitSchool</h3>
-            <p>Plataforma desenvolvida para ajudar sua organização a gerenciar e acompanhar seus exercícios físicos de forma prática e eficiente.
-            Confira mais detalhes no nosso GitHub!</p>
-            <div class="buttons">
-              <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
-              <i class="fa-brands fa-github"></i>Veja no GitHub
-              </a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="c:\Users\arthu\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-10-23 174953.png" alt="KIVO">
-            <h3>Kivo</h3>
-            <p>Um projeto que busca aumentar a fidelidade dos leitores do Jornal do commercio. Confira mais detalhes no nosso GitHub!</p>
-            <div class="buttons">
-              <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
-              <i class="fa-brands fa-github"></i>Veja no Github
-              </a>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="c:\Users\arthu\OneDrive\Imagens\Capturas de tela\Captura de tela 2025-10-23 175253.png" alt="CTRL-4ALL">
-            <h3>Ctrl-4ALL</h3>
-            <p>Um controle que consegue captar os movimentos da cabeça do usuário. Confira mais detalhes no nosso GitHub!</p>
-            <div class="buttons">
-              <a href="https://github.com/Marcelomenezes07/projeto-ctrl4all" target="_blank">
-              <i class="fa-brands fa-github"></i>Veja no GitHub
-              </a>
-            </div>
-          </div>
-
-      <!-- 🏅 Certificações -->
-    <div id="certificates" class="tab-content" role="tabpanel">
+    <!-- 🧩 Projetos -->
+    <div id="projects" class="tab-content active">
       <div class="grid">
         <div class="card">
-          <img src="static/img/googlecloud.png" alt="Google Cloud">
-          <h3>Google Cloud Foundations</h3>
-          <p>Curso de fundamentos em Cloud Computing e DevOps.</p>
+          <img src="imagens/fitschool.png" alt="FitSchool">
+          <h3>FitSchool</h3>
+          <p>Plataforma para gerenciar e acompanhar exercícios físicos.</p>
+          <div class="buttons">
+            <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
+              <i class="fa-brands fa-github"></i> Veja no GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imagens/kivo.png" alt="KIVO">
+          <h3>Kivo</h3>
+          <p>Projeto de fidelização de leitores do Jornal do Commercio.</p>
+          <div class="buttons">
+            <a href="https://github.com/Arthursindeaux/Portifolio" target="_blank">
+              <i class="fa-brands fa-github"></i> Veja no GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imagens/ctrl4all.png" alt="CTRL-4ALL">
+          <h3>Ctrl-4ALL</h3>
+          <p>Controle que capta movimentos da cabeça do usuário.</p>
+          <div class="buttons">
+            <a href="https://github.com/Marcelomenezes07/projeto-ctrl4all" target="_blank">
+              <i class="fa-brands fa-github"></i> Veja no GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🏅 Certificações -->
+    <div id="certificates" class="tab-content">
+      <div class="grid">
+        <div class="card">
+          <img src="imagens/ibm.png" alt="IBM Data Science">
+          <h3>IBM Data Science</h3>
+          <p>Curso da IBM sobre Ciência de Dados.</p>
           <a href="#" class="btn">Ver Certificado</a>
         </div>
 
-          <div class="card">
-            <img src="static/img/githubpack.png" alt="GitHub Pack">
-            <h3>GitHub Student Developer Pack</h3>
-            <p>Acesso às melhores ferramentas de desenvolvimento para estudantes.</p>
-            <a href="#" class="btn">Detalhes</a>
-          </div>
+        <div class="card">
+          <img src="imagens/python.png" alt="Python Essentials 1">
+          <h3>Python Essentials 1</h3>
+          <p>Curso da Cisco sobre introdução ao Python.</p>
+          <a href="#" class="btn">Detalhes</a>
         </div>
-      </div>
 
-      <!-- ⚙️ Tech Stack -->
-      <div id="techstack" class="tab-content" role="tabpanel">
-        <div class="tech-grid">
-          <div class="tech-card"><img src="static/icons/python.svg" alt="Python"><span>Python / Django</span></div>
-          <div class="tech-card"><img src="static/icons/react.svg" alt="React"><span>React / JS</span></div>
-          <div class="tech-card"><img src="static/icons/azure.svg" alt="Azure"><span>Azure Cloud</span></div>
-          <div class="tech-card"><img src="static/icons/git.svg" alt="Git"><span>Git & CI/CD</span></div>
-          <div class="tech-card"><img src="static/icons/figma.svg" alt="Figma"><span>Figma / UX Design</span></div>
-          <div class="tech-card"><img src="static/icons/tailwind.svg" alt="Tailwind"><span>Tailwind CSS</span></div>
+        <div class="card">
+          <img src="imagens/javascript.png" alt="JavaScript Essentials 1">
+          <h3>JavaScript Essentials 1</h3>
+          <p>Curso da Cisco sobre introdução ao JavaScript.</p>
+          <a href="#" class="btn">Detalhes</a>
         </div>
       </div>
     </div>
-  </section>
 
-  <script src="script.js"></script>
-</body>
-</html>
+    <!-- ⚙️ Tech Stack -->
+    <div id="techstack" class="tab-content">
+      <div class="tech-grid">
+        <div class="tech-card"><img src="static/icons/python.svg" alt="Python"><span>Python / Django</span></div>
+        <div class="tech-card"><img src="static/icons/react.svg" alt="React"><span>React / JS</span></div>
+        <div class="tech-card"><img src="static/icons/azure.svg" alt="Azure"><span>Azure Cloud</span></div>
+        <div class="tech-card"><img src="static/icons/git.svg" alt="Git"><span>Git & CI/CD</span></div>
+        <div class="tech-card"><img src="static/icons/figma.svg" alt="Figma"><span>Figma / UX Design</span></div>
+        <div class="tech-card"><img src="static/icons/tailwind.svg" alt="Tailwind"><span>Tailwind CSS</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
   <script src="script.js"></script>
 </body>
