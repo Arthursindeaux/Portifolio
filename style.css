@@ -528,3 +528,78 @@ a.btn:hover, .buttons a:hover {
 
 .tab-content { display: none; }
 .tab-content.active { display: block; }
+
+/* 🔹 CONTATO */
+.contact-section {
+  min-height: 60vh;
+  padding: 80px 10%;
+  text-align: center;
+  background: var(--background);
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-subtitle {
+  color: #9ca3af;
+  margin-bottom: 50px;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px 40px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  min-width: 160px;
+}
+
+.contact-card i {
+  font-size: 2rem;
+  background: linear-gradient(45deg, var(--primary), var(--secundary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-card span {
+  font-weight: 500;
+  color: #d1d5db;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+  background: rgba(139, 92, 246, 0.08);
+}
+
+/* 🔹 Informações abaixo */
+.contact-info {
+  color: #9ca3af;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.95rem;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: var(--primary);
+}
