@@ -10,15 +10,6 @@ Este repositório contém o código do meu **Web Portfólio**.
 
 O objetivo deste site é centralizar as coisas mais relevantes que participei,estudei e aprofundei na area de TI, falando um pouco mais de mim, sobre os projetos que fiz, certificações que estudei, ferramentas nas quais tenho familiaridade e formas de entrar em contato comigo
 
-## 📂 Estrutura do Projeto
-
-📁 web-portfolio
-├── index.html
-├── style.css
-├── script.js
-├── 📁 imagens
-├── 📁 icons
-
 ## 🧩 Projetos em Destaque
 
 ### 📊 E-commerce Data Analysis
@@ -35,7 +26,9 @@ https://github.com/Arthursindeaux/Ecommerce_Data_analyst
 
 ### 🏋️ FitSchool
 O FitSchool é uma aplicação web desenvolvida em Django para auxiliar alunos e frequentadores de academias a organizarem e acompanharem seus treinos de forma eficiente.
-🔗 Repositório: https://github.com/lucasbeno/FitSchool-FDS
+
+🔗 Repositório:
+https://github.com/lucasbeno/FitSchool-FDS
 
 ---
 ### 📰 Kivo
@@ -48,6 +41,9 @@ https://github.com/Lucascbayma/KIVO
 
 ### 🎮 Ctrl-4ALL
 Controle acessível que capta movimentos da cabeça do usuário, com foco em inclusão e acessibilidade.
+
+🔗 Repositório: 
+https://github.com/Marcelomenezes07/projeto-ctrl4all
 
 ---
 
