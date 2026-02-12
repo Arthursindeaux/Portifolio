@@ -8,7 +8,7 @@ Este repositório contém o código do meu **Web Portfólio**.
 
 ## 🌐 Sobre o Portfólio
 
-O objetivo deste site é centralizar as coisas mais relevantes que participei,estudei e aprofundei na area de TI, falando um pouco mais de mim, sobre os projetos que fiz, certificações que estudei, ferramentas nas quais tenho familiaridade e formas de entrar em contato comigo
+O objetivo deste site é centralizar os principais projetos, estudos e experiências que desenvolvi na área de Tecnologia da Informação. Aqui compartilho um pouco mais sobre minha trajetória, os projetos que construí, certificações que concluí, as ferramentas com as quais tenho familiaridade e as formas de entrar em contato comigo.
 
 ## 🧩 Projetos em Destaque
 
@@ -62,7 +62,7 @@ https://github.com/Marcelomenezes07/projeto-ctrl4all
 
 ---
 
-## 🎯 Certificações
+## 🏅 Certificações
 
 - IBM Data Science Professional Certificate
 - Python Essentials 1 Cisco
