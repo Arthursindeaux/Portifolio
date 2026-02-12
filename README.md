@@ -85,6 +85,10 @@ Busco evoluir continuamente na área de **Dados**, aprofundando meus conheciment
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Sindeaux-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthursindeaux/)
 [![GitHub](https://img.shields.io/badge/GitHub-Arthursindeaux-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arthursindeaux)
 
+## Currículo Google Docs
+[![Google Docs](https://img.shields.io/badge/Google%20Docs-Curr%C3%ADculo-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1io4g6aW_ykeDA4ww4Y4d_tgj9WadI9lUQf4D7mH53jQ/view)
+
+
 ---
 
 ## ⭐ Obrigado por visitar meu portfólio
