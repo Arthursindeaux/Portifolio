@@ -434,10 +434,13 @@ main {
   box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
 }
 
-.card img {
+.card img{
   width: 100%;
+  height: 180px;         
+  object-fit: cover;     
   border-radius: 12px;
   margin-bottom: 15px;
+  display: block;
 }
 
 .card h3 {
