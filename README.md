@@ -95,6 +95,7 @@ Busco evoluir continuamente na área de **Dados**, aprofundando meus conheciment
 <img width="1897" height="898" alt="Image" src="https://github.com/user-attachments/assets/119c100a-25e0-4dc6-b3bd-bc155c852946" />
 <img width="1897" height="902" alt="Image" src="https://github.com/user-attachments/assets/1d55f0e7-95b5-4c40-9c1b-7b7282112fb5" />
 <img width="1897" height="908" alt="Image" src="https://github.com/user-attachments/assets/12f6e037-f3a9-425c-a9aa-a3d54f2555cd" />
+<img width="1897" height="903" alt="Image" src="https://github.com/user-attachments/assets/85790569-768e-4679-8f17-4dea7ae70717" />
 ---
 
 ## ⭐ Obrigado por visitar meu portfólio
