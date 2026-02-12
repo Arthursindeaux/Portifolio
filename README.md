@@ -92,6 +92,7 @@ Busco evoluir continuamente na área de **Dados**, aprofundando meus conheciment
 ## 📷 Web Portifólio
 
 <img width="1897" height="905" alt="Image" src="https://github.com/user-attachments/assets/aa0d7538-565d-4f44-9fab-dc9c88f39001" />
+<img width="1897" height="898" alt="Image" src="https://github.com/user-attachments/assets/119c100a-25e0-4dc6-b3bd-bc155c852946" />
 ---
 
 ## ⭐ Obrigado por visitar meu portfólio
