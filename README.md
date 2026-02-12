@@ -80,10 +80,10 @@ Busco evoluir continuamente na área de **Dados**, aprofundando meus conheciment
 
 ## 📬 Contato
 
-📧 Email: arthursindeaux1@gmail.com  
-📱 WhatsApp: (81) 98127-5151  
-🔗 LinkedIn: https://linkedin.com/in/SEU-USUARIO  
-💻 GitHub: https://github.com/Arthursindeaux
+[![Email](https://img.shields.io/badge/Email-arthursindeaux1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthursindeaux1@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+55%2081%2098127--5151-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5581981275151)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Sindeaux-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthursindeaux/)
+[![GitHub](https://img.shields.io/badge/GitHub-Arthursindeaux-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arthursindeaux)
 
 ---
 
