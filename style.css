@@ -603,3 +603,7 @@ a.btn:hover, .buttons a:hover {
   margin-right: 8px;
   color: var(--primary);
 }
+
+html {
+  scroll-behavior: smooth;
+}
