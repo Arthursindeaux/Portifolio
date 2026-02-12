@@ -34,12 +34,15 @@ https://github.com/Arthursindeaux/Ecommerce_Data_analyst
 ---
 
 ### 🏋️ FitSchool
-Plataforma para gerenciamento de exercícios físicos com foco em organização e experiência do usuário.
+O FitSchool é uma aplicação web desenvolvida em Django para auxiliar alunos e frequentadores de academias a organizarem e acompanharem seus treinos de forma eficiente.
+🔗 Repositório: https://github.com/lucasbeno/FitSchool-FDS
 
 ---
-
 ### 📰 Kivo
 Projeto de fidelização de leitores do Jornal do Commercio.
+
+🔗 Repositório: 
+https://github.com/Lucascbayma/KIVO
 
 ---
 
