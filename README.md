@@ -85,10 +85,18 @@ Busco evoluir continuamente na área de **Dados**, aprofundando meus conheciment
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Sindeaux-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthursindeaux/)
 [![GitHub](https://img.shields.io/badge/GitHub-Arthursindeaux-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arthursindeaux)
 
-## Currículo Google Docs
+## 📄 Currículo Google Docs
 [![Google Docs](https://img.shields.io/badge/Google%20Docs-Curr%C3%ADculo-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1io4g6aW_ykeDA4ww4Y4d_tgj9WadI9lUQf4D7mH53jQ/view)
 
 
+## 📷 Web Portifólio
+
+<img width="1897" height="905" alt="Image" src="https://github.com/user-attachments/assets/aa0d7538-565d-4f44-9fab-dc9c88f39001" />
+<img width="1897" height="898" alt="Image" src="https://github.com/user-attachments/assets/119c100a-25e0-4dc6-b3bd-bc155c852946" />
+<img width="1897" height="902" alt="Image" src="https://github.com/user-attachments/assets/1d55f0e7-95b5-4c40-9c1b-7b7282112fb5" />
+<img width="1897" height="908" alt="Image" src="https://github.com/user-attachments/assets/12f6e037-f3a9-425c-a9aa-a3d54f2555cd" />
+<img width="1897" height="903" alt="Image" src="https://github.com/user-attachments/assets/85790569-768e-4679-8f17-4dea7ae70717" />
+<img width="1898" height="900" alt="Image" src="https://github.com/user-attachments/assets/f72fdf1a-a0c9-44e8-8acf-9d5607a850bf" />
 ---
 
 ## ⭐ Obrigado por visitar meu portfólio
