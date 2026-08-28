@@ -1,6 +1,6 @@
 # 👨‍💻 Arthur Sindeaux
 
-Estudante de **Ciência da Computação (3º período - Cesar School)** com foco em **na área de dados** .
+Estudante de **Ciência da Computação (4º período - Cesar School)** com foco em **na área de dados** .
 
 Este repositório contém o código do meu **Web Portfólio**.
 
